@@ -55,12 +55,12 @@
 		<repository>
 			<id>nexus-releases</id>
 			<name>Nexus Releases</name>
-			<url>http://43.205.117.85:8081/nexus/content/repositories/releases</url>
+			<url>http://43.205.117.85:8081/repository/maven-releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus-snapshots</id>
 			<name>Nexus Snapshots</name>
-			<url>http://43.205.117.85:8081/nexus/content/repositories/snapshots</url>
+			<url>http://43.205.117.85:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<dependencies>
